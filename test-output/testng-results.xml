@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Main Test Suite" duration-ms="2557" started-at="2017-09-28T08:58:36Z" finished-at="2017-09-28T08:58:39Z">
+  <suite name="Main Test Suite" duration-ms="2726" started-at="2017-10-03T11:15:31Z" finished-at="2017-10-03T11:15:34Z">
     <groups>
     </groups>
-    <test name="TestNG Test Group" duration-ms="2557" started-at="2017-09-28T08:58:36Z" finished-at="2017-09-28T08:58:39Z">
+    <test name="TestNG Test Group" duration-ms="2726" started-at="2017-10-03T11:15:31Z" finished-at="2017-10-03T11:15:34Z">
       <class name="MavenProject.fgh.asd">
-        <test-method status="PASS" signature="startReport()[pri:0, instance:MavenProject.fgh.asd@e25b2fe]" name="startReport" is-config="true" duration-ms="105" started-at="2017-09-28T14:28:36Z" finished-at="2017-09-28T14:28:36Z">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:MavenProject.fgh.asd@e25b2fe]" name="startReport" is-config="true" duration-ms="110" started-at="2017-10-03T16:45:31Z" finished-at="2017-10-03T16:45:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReport -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:MavenProject.fgh.asd@e25b2fe]" name="beforeClass" is-config="true" duration-ms="1140" started-at="2017-09-28T14:28:36Z" finished-at="2017-09-28T14:28:38Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:MavenProject.fgh.asd@e25b2fe]" name="beforeClass" is-config="true" duration-ms="1325" started-at="2017-10-03T16:45:31Z" finished-at="2017-10-03T16:45:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="test1()[pri:0, instance:MavenProject.fgh.asd@e25b2fe]" name="test1" duration-ms="375" started-at="2017-09-28T14:28:38Z" finished-at="2017-09-28T14:28:38Z">
+        <test-method status="PASS" signature="test1()[pri:0, instance:MavenProject.fgh.asd@e25b2fe]" name="test1" duration-ms="361" started-at="2017-10-03T16:45:33Z" finished-at="2017-10-03T16:45:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:MavenProject.fgh.asd@e25b2fe]" name="getResult" is-config="true" duration-ms="0" started-at="2017-09-28T14:28:38Z" finished-at="2017-09-28T14:28:38Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:MavenProject.fgh.asd@e25b2fe]" name="getResult" is-config="true" duration-ms="16" started-at="2017-10-03T16:45:33Z" finished-at="2017-10-03T16:45:33Z">
           <params>
             <param index="0">
               <value>
@@ -30,26 +30,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="test2()[pri:0, instance:MavenProject.fgh.asd@e25b2fe]" name="test2" duration-ms="680" started-at="2017-09-28T14:28:38Z" finished-at="2017-09-28T14:28:39Z">
+        <test-method status="PASS" signature="test2()[pri:0, instance:MavenProject.fgh.asd@e25b2fe]" name="test2" duration-ms="665" started-at="2017-10-03T16:45:33Z" finished-at="2017-10-03T16:45:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
-        <test-method status="PASS" signature="test4()[pri:0, instance:MavenProject.fgh.asd@e25b2fe]" name="test4" duration-ms="0" started-at="2017-09-28T14:28:39Z" finished-at="2017-09-28T14:28:39Z">
+        <test-method status="PASS" signature="test4()[pri:0, instance:MavenProject.fgh.asd@e25b2fe]" name="test4" duration-ms="0" started-at="2017-10-03T16:45:34Z" finished-at="2017-10-03T16:45:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test4 -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:MavenProject.fgh.asd@e25b2fe]" name="getResult" is-config="true" duration-ms="0" started-at="2017-09-28T14:28:39Z" finished-at="2017-09-28T14:28:39Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=test2 status=SUCCESS method=asd.test2()[pri:0, instance:MavenProject.fgh.asd@e25b2fe] output={null}]]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="test3()[pri:0, instance:MavenProject.fgh.asd@e25b2fe]" name="test3" duration-ms="0" started-at="2017-10-03T16:45:34Z" finished-at="2017-10-03T16:45:34Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:MavenProject.fgh.asd@e25b2fe]" name="getResult" is-config="true" duration-ms="0" started-at="2017-09-28T14:28:39Z" finished-at="2017-09-28T14:28:39Z">
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:MavenProject.fgh.asd@e25b2fe]" name="getResult" is-config="true" duration-ms="0" started-at="2017-10-03T16:45:34Z" finished-at="2017-10-03T16:45:34Z">
           <params>
             <param index="0">
               <value>
@@ -60,11 +53,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="endReport()[pri:0, instance:MavenProject.fgh.asd@e25b2fe]" name="endReport" is-config="true" duration-ms="216" started-at="2017-09-28T14:28:39Z" finished-at="2017-09-28T14:28:39Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:MavenProject.fgh.asd@e25b2fe]" name="getResult" is-config="true" duration-ms="0" started-at="2017-10-03T16:45:34Z" finished-at="2017-10-03T16:45:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test2 status=SUCCESS method=asd.test2()[pri:0, instance:MavenProject.fgh.asd@e25b2fe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:MavenProject.fgh.asd@e25b2fe]" name="endReport" is-config="true" duration-ms="203" started-at="2017-10-03T16:45:34Z" finished-at="2017-10-03T16:45:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:MavenProject.fgh.asd@e25b2fe]" name="getResult" is-config="true" duration-ms="0" started-at="2017-09-28T14:28:39Z" finished-at="2017-09-28T14:28:39Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:MavenProject.fgh.asd@e25b2fe]" name="getResult" is-config="true" duration-ms="0" started-at="2017-10-03T16:45:34Z" finished-at="2017-10-03T16:45:34Z">
           <params>
             <param index="0">
               <value>
@@ -75,10 +79,6 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="test3()[pri:0, instance:MavenProject.fgh.asd@e25b2fe]" name="test3" duration-ms="0" started-at="2017-09-28T14:28:39Z" finished-at="2017-09-28T14:28:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test3 -->
       </class> <!-- MavenProject.fgh.asd -->
     </test> <!-- TestNG Test Group -->
   </suite> <!-- Main Test Suite -->
