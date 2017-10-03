@@ -1,6 +1,8 @@
 package MavenProject.fgh;
 
 import java.io.File;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
@@ -23,7 +25,9 @@ public class ExtentReportsClass {
 		//False: existing data will remain, new tests will be appended to the existing report. If the the supplied path does not exist, a new file will be created.
 		File file = new File(System.getProperty("user.dir") +"/Reports");
 		file.mkdir();
-		extent = new ExtentReports (file.getAbsolutePath()+"/STMExtentReport_"+System.currentTimeMillis()+".html", true);
+		SimpleDateFormat formatter = new SimpleDateFormat("yyyyMMddHHmmss");
+		String ourformat = formatter.format(System.currentTimeMillis());
+		extent = new ExtentReports (file.getAbsolutePath()+"/STMExtentReport_"+ourformat+".html", true);
 		//extent.addSystemInfo("Environment","Environment Name")
 		extent
                 .addSystemInfo("Host Name", "SoftwareTestingMaterial")
