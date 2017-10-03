@@ -23,7 +23,7 @@ public class ExtentReportsClass {
 		//False: existing data will remain, new tests will be appended to the existing report. If the the supplied path does not exist, a new file will be created.
 		File file = new File(System.getProperty("user.dir") +"/Reports");
 		file.mkdir();
-		extent = new ExtentReports (file.getAbsolutePath()+"/STMExtentReport.html_"+System.currentTimeMillis(), true);
+		extent = new ExtentReports (file.getAbsolutePath()+"/STMExtentReport_"+System.currentTimeMillis()+".html", true);
 		//extent.addSystemInfo("Environment","Environment Name")
 		extent
                 .addSystemInfo("Host Name", "SoftwareTestingMaterial")
