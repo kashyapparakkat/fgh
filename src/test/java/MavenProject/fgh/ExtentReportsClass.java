@@ -25,6 +25,7 @@ public class ExtentReportsClass {
 		//False: existing data will remain, new tests will be appended to the existing report. If the the supplied path does not exist, a new file will be created.
 		File file = new File(System.getProperty("user.dir") +"/Reports");
 		file.mkdir();
+		//
 		SimpleDateFormat formatter = new SimpleDateFormat("yyyyMMddHHmmss");
 		String ourformat = formatter.format(System.currentTimeMillis());
 		extent = new ExtentReports (file.getAbsolutePath()+"/STMExtentReport_"+ourformat+".html", true);
